@@ -15,5 +15,41 @@ Netflix has supplied a substantial amount of anonymized rating data, along with 
 2. Diminish the discrepancy between predicted and actual ratings (evaluated using RMSE and MAPE)."
 
 
+# Project Steps:
+1. Interpretability Aspect:
+   - Incorporate a level of interpretability to understand the underlying patterns and behaviors driving the recommendations.
+   
+2. Machine Learning Challenge:
+   - Formulate the recommendation problem as a machine learning task, identifying the appropriate algorithms and evaluation metrics to employ.
+   
+3. Data Handling:
+   - Acquire, preprocess, and explore the data to ensure it's well-suited for building and evaluating the recommendation model.
+
+# Data Files
+- combined_data_1.txt
+- combined_data_2.txt
+- combined_data_3.txt
+- combined_data_4.txt
+- movie_titles.csv
+
+The initial line of each file [combined_data_1.txt, combined_data_2.txt, combined_data_3.txt, combined_data_4.txt] showcases the movie id, followed by a colon. Every line thereafter in the file represents a rating from a customer along with the date, formatted as follows:
+
+CustomerID,Rating,Date
+
+MovieIDs are sequentially numbered from 1 to 17770. CustomerIDs span from 1 to 2649429, albeit with gaps, encompassing a total of 480189 users. Ratings are denoted on a five-star (integral) scale ranging from 1 to 5. Dates are formatted as YYYY-MM-DD.
+
+# Translating the Real-World Problem to a Machine Learning Problem:
+## Type of Machine Learning Problem:
+- Given a specific movie and user, the task is to predict the rating that would be assigned by the user to the movie.
+- This problem is fundamentally a Recommendation problem.
+- It can also be perceived as a Regression problem.
+
+# Performance Metrics:
+- Mean Absolute Percentage Error (MAPE)
+- Root Mean Square Error (RMSE)
+
+# Machine Learning Objective and Constraints:
+- The primary objective is to minimize the RMSE.
+- Endeavor to offer some level of interpretability.
 
 
