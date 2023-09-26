@@ -1,4 +1,5 @@
-#Problem Overview
+# Problem Overview
+
 Netflix thrives on bridging the gap between individuals and the movies they adore. In order to assist customers in discovering those movies, they have crafted a top-notch movie recommendation system known as CinematchSM. The core function of Cinematch is to forecast a person's enjoyment of a movie based on their previous likes or dislikes of other movies. Netflix leverages these predictions to tailor movie recommendations according to each customer's distinct preferences. Although Cinematch has been performing admirably, there's always room for enhancement.
 
 There exist numerous intriguing alternative methodologies to the functioning of Cinematch that Netflix hasn't explored yet. Some of these methodologies have been documented in scholarly articles, while others haven't. The curiosity lies in whether any of these alternative approaches can outperform Cinematch by delivering more accurate predictions. Candidly, discovering a significantly superior approach could potentially make a substantial impact on both the customers and the business.
