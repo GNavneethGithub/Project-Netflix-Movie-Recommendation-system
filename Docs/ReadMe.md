@@ -53,4 +53,5 @@ MovieIDs are sequentially numbered from 1 to 17770. CustomerIDs span from 1 to 2
 - The primary objective is to minimize the RMSE.
 - Endeavor to offer some level of interpretability.
 
-
+# Acknowledgement
+B. Sivasubramanian (https://github.com/storieswithsiva)
